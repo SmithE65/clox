@@ -1,0 +1,58 @@
+# CMake build directories
+/build/
+/cmake-build-*/
+
+# CLion project files
+.idea/
+*.iml
+
+# Compiler-generated files
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.out
+*.i
+*.s
+
+# Debugging and profiling
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Logs and temp files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+
+# CMake cache files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Ninja build files
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Compilation database
+compile_commands.json
+
+# clangd
+.cache/
+.clangd/
+
+# Code coverage
+*.gcda
+*.gcno
+*.gcov
+lcov.info
